@@ -1,2 +1,2 @@
-from .hydrochronos import HydroChronos
+from .hydrochronos import HydroChronos, HydroChronosDataModule
 from .pretrain_finetune import PretrainWaterDataset, SentinelWaterDataset
