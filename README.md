@@ -10,15 +10,29 @@
 
 <!-- <a href=""><img src='https://img.shields.io/badge/Paper-%23B31B1B?style=flat&logo=arxiv&logoColor=%23B31B1B&labelColor=white' alt='Paper PDF'></a> -->
 <a href="https://huggingface.co/datasets/DarthReca/hydro-cronos"><img src='https://img.shields.io/badge/HydroChronos-yellow?style=flat&logo=huggingface&logoColor=yellow&labelColor=grey'></a>
+<a href="https://huggingface.co/collections/DarthReca/actu-6872e67bacfcdbef020e25ff"><img src='https://img.shields.io/badge/ACTU-yellow?style=flat&logo=huggingface&logoColor=yellow&labelColor=grey'></a>
+
 </div>
 
 ...
 *Repository in construction*
 
-### Getting Started
+## Getting Started
+
+## Dataset
 The dataset is available on [HuggingFace](https://huggingface.co/datasets/DarthReca/hydro-cronos).
 
-The models will be released on HuggingFace soon.
+### Data Modalities
+
+## Models
+
+You can easily load the model with HuggingFace. Each repository contains different configurations of ACTU.
+
+| Task | Weights |
+| :--- | :--- |
+| **Change Detection** | [Link](https://huggingface.co/DarthReca/actu-change-detection) |
+| **Direction Classification** | [Link](https://huggingface.co/DarthReca/actu-direction-classification) |
+| **Magnitude Regression** | [Link](https://huggingface.co/DarthReca/actu-magnitude-regression) |
 
 ## License
 
