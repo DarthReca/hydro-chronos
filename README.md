@@ -10,7 +10,7 @@
 
 [SIGSPATIAL 2025](https://sigspatial2025.sigspatial.org/)
 
-<!-- <a href=""><img src='https://img.shields.io/badge/Paper-%23B31B1B?style=flat&logo=arxiv&logoColor=%23B31B1B&labelColor=white' alt='Paper PDF'></a> -->
+<a href="https://arxiv.org/abs/2506.14362"><img src='https://img.shields.io/badge/Paper-%23B31B1B?style=flat&logo=arxiv&logoColor=%23B31B1B&labelColor=white' alt='Paper PDF'></a>
 <a href="https://huggingface.co/datasets/DarthReca/hydro-cronos"><img src='https://img.shields.io/badge/HydroChronos-yellow?style=flat&logo=huggingface&logoColor=yellow&labelColor=grey'></a>
 <a href="https://huggingface.co/collections/DarthReca/actu-6872e67bacfcdbef020e25ff"><img src='https://img.shields.io/badge/ACTU-yellow?style=flat&logo=huggingface&logoColor=yellow&labelColor=grey'></a>
 
