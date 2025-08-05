@@ -8,14 +8,16 @@
 
 <sup>1</sup>Politecnico di Torino, Italy&emsp;<sup>2</sup>Wherobots, USA
 
+[SIGSPATIAL 2025](https://sigspatial2025.sigspatial.org/)
+
 <!-- <a href=""><img src='https://img.shields.io/badge/Paper-%23B31B1B?style=flat&logo=arxiv&logoColor=%23B31B1B&labelColor=white' alt='Paper PDF'></a> -->
 <a href="https://huggingface.co/datasets/DarthReca/hydro-cronos"><img src='https://img.shields.io/badge/HydroChronos-yellow?style=flat&logo=huggingface&logoColor=yellow&labelColor=grey'></a>
 <a href="https://huggingface.co/collections/DarthReca/actu-6872e67bacfcdbef020e25ff"><img src='https://img.shields.io/badge/ACTU-yellow?style=flat&logo=huggingface&logoColor=yellow&labelColor=grey'></a>
 
 </div>
 
-...
-*Repository in construction*
+
+**In this paper, we introduce HYDROCHRONOS, a large-scale, multi-modal spatiotemporal dataset designed for forecasting surface water dynamics. The dataset provides over three decades of aligned Landsat 5 and Sentinel-2 imagery, coupled with climate data and Digital Elevation Models for lakes and rivers across Europe, North America, and South America. We also propose AquaClimaTempo UNet, a novel spatiotemporal architecture with a dedicated climate data branch.** Our findings show that our model significantly outperforms a Persistence baseline in forecasting future water dynamics by +14% and +11% F1-scores across change detection and direction of change classification tasks, respectively, and by +0.1 MAE on the magnitude of change regression. Additionally, we conduct an Explainable AI analysis to identify the key variables and input channels that influence surface water change, offering insights to guide future research.
 
 ## Getting Started
 
@@ -23,6 +25,7 @@
 The dataset is available on [HuggingFace](https://huggingface.co/datasets/DarthReca/hydro-cronos).
 
 ### Data Modalities
+...
 
 ## Models
 
@@ -43,4 +46,13 @@ This project is licensed under the **Apache 2.0 license**. See [LICENSE](LICENSE
 If you find this project useful, please consider citing:
 
 ```bibtex
+@misc{cambrin2025hydrochronosforecastingdecadessurface,
+      title={HydroChronos: Forecasting Decades of Surface Water Change}, 
+      author={Daniele Rege Cambrin and Eleonora Poeta and Eliana Pastor and Isaac Corley and Tania Cerquitelli and Elena Baralis and Paolo Garza},
+      year={2025},
+      eprint={2506.14362},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2506.14362}, 
+}
 ```
