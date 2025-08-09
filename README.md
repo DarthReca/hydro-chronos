@@ -21,6 +21,8 @@
 
 ## Getting Started
 
+Install the dependencies in *requirements.txt* and modify the configuration in *configs* folder (SOON). To train a model, simply run *train_classification.py* or *train_regression.py*.
+
 ## Dataset
 The dataset is available on [HuggingFace](https://huggingface.co/datasets/DarthReca/hydro-cronos).
 
