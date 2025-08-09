@@ -25,7 +25,18 @@
 The dataset is available on [HuggingFace](https://huggingface.co/datasets/DarthReca/hydro-cronos).
 
 ### Data Modalities
-...
+The dataset comprises Landsat-5 (L) TOA and Sentinel-2 (S) TOA images. There are 6 coherently aligned bands for both satellites:
+
+| Landsat | Sentinel | Description | Central Wavelength (L/S) |
+|:-------:|:--------:|:-----------:|:------------------------:|
+|    B1   |    B2    |     Blue    |        485/492 nm        |
+|    B2   |    B3    |    Green    |        560/560 nm        |
+|    B3   |    B4    |     Red     |        660/665 nm        |
+|    B4   |    B8    |     NIR     |        830/833 nm        |
+|    B5   |    B11   |     SWIR    |       1650/1610 nm       |
+|    B7   |    B12   |     SWIR    |       2220/2190 nm       |
+
+They are coupled with climate variables from [TERRACLIMATE](https://www.nature.com/articles/sdata2017191) and Copernicus GLO30-DEM.
 
 ## Models
 
