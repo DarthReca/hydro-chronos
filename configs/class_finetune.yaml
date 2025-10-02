@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - dataset: lakes_rivers_direction
+  - model: classifier_pretrained
+  - trainer: finetune
+
+seed: 42
+logger: comet
+checkpoint: ""
+
+task:
+  name: train

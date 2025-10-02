@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - dataset: lakes_rivers_direction
+  - model: classifier
+  - trainer: long
+
+seed: 42
+logger: comet
+
+task:
+  name: train
